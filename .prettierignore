@@ -1,0 +1,36 @@
+// Other project files
+**/.github/**
+**/build/**
+**/ci/**
+**/deployment/**
+**/dev_tools/**
+docker-compose.dcproj
+**/gems/**
+ima-ifrs17.sln
+**/qa/docker/**
+**/qa/perf/**
+**/qa/qa_tools/**
+**/qa/resources/**
+**/qa/review-guideline-v1.0.txt
+rakefile
+rakefile.completion.bash*
+README.md
+**/restserver/**
+**/service/**
+**/services/**
+**/shared_libraries/**
+
+// Specific files/folders
+environment*.ts
+polyfills.ts
+package-lock.json
+unitaryTests.html
+result-ci-lint.json
+reports/**
+
+// Specific cypress files
+**/cypress/fixtures/projects/supporting_data/imports/bi_metric_definition.yml
+**/cypress/fixtures/projects/supporting_data/imports/reporting_metric_definition.yml
+
+// plugin fo cypress iframe test
+cypress/plugins/cypress-iframe/**
